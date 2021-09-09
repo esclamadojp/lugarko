@@ -10,7 +10,9 @@ class New_Resident extends CI_Controller {
 		else 
 			return 'New Resident';
 		#change on resident file...
+<<<<<<< Updated upstream
 		#changes on github again 1
+=======
 	}
 
 	public function index(){
@@ -18,7 +20,11 @@ class New_Resident extends CI_Controller {
 		$this->load->view($this->modulename('link').'/index');
 		$this->load->view('templates/footer');
 		#This is a test edit.
+<<<<<<< Updated upstream
 		#changes on github again 2
+=======
+		#my changes on github desktop B
+>>>>>>> Stashed changes
 	}
 
 	public function userauthentication() 
