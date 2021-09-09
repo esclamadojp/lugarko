@@ -10,6 +10,7 @@ class New_Resident extends CI_Controller {
 		else 
 			return 'New Resident';
 		#change on resident file...
+		#changes on github again 1
 	}
 
 	public function index(){
@@ -17,6 +18,7 @@ class New_Resident extends CI_Controller {
 		$this->load->view($this->modulename('link').'/index');
 		$this->load->view('templates/footer');
 		#This is a test edit.
+		#changes on github again 2
 	}
 
 	public function userauthentication() 
