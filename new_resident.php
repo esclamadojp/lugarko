@@ -13,6 +13,7 @@ class New_Resident extends CI_Controller {
 <<<<<<< Updated upstream
 		#changes on github again 1
 =======
+>>>>>>> Stashed changes
 	}
 
 	public function index(){
