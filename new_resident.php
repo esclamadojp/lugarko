@@ -15,6 +15,7 @@ class New_Resident extends CI_Controller {
 		$this->load->helper('common_helper');
 		$this->load->view($this->modulename('link').'/index');
 		$this->load->view('templates/footer');
+		#This is a test edit.
 	}
 
 	public function userauthentication() 
