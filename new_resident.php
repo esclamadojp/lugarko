@@ -9,6 +9,7 @@ class New_Resident extends CI_Controller {
 			return 'new_resident';
 		else 
 			return 'New Resident';
+		#change on resident file...
 	}
 
 	public function index(){
