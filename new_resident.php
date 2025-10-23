@@ -26,6 +26,7 @@ class New_Resident extends CI_Controller {
 	{
 		try 
 		{
+			#changes here!
 			$user_name	= mysql_real_escape_string(strip_tags(trim($this->input->post('user_name'))));
 			$password	= mysql_real_escape_string(strip_tags(trim($this->input->post('password'))));
 			$type		= $this->input->post('type');
